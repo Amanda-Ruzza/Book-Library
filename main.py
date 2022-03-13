@@ -39,4 +39,4 @@ def new_book_request():
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1") # The Host will be the IP address of my own machine
+    app.run(host="0.0.0.0") # The Host will be the IP address of my own machine
