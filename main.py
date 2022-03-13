@@ -33,10 +33,10 @@ def new_book_request():
     return "Would you like to add your favorite book to this list? Type yes or no "
     if request :
         "yes"
-        def new_book():
-            {"4": {"name": "abc", "release_date": "1112"}}
-            books_db.append(new_book)
+        return def new_book():
+                {"4": {"name": "abc", "release_date": "1112"}}
+                return books_db.append(new_book)
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.1") # The Host will be the IP address of my own machine
+    app.run(host="127.0.0.1") # The Host will be the IP address of my own machine
